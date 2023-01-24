@@ -15,5 +15,44 @@ main{
 /* HEADER NAV RULES */
 
 .mobile-logo{
-    width: 30px;
+    width: 40px;
 }
+
+.bell-color{
+    color: #FF8F00;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .big-logo{
+        display: none;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .mobile-logo{
+        display: block;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .big-logo{
+        display: block;
+    }
+
+    .mobile-logo{
+        display: none;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
