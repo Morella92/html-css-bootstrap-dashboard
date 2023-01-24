@@ -1,0 +1,19 @@
+/* DEBUG */
+
+header{
+    border: 1px solid red;
+}
+
+aside{
+    border: 1px solid blue;
+}
+
+main{
+    border: 1px solid green;
+}
+
+/* HEADER NAV RULES */
+
+.mobile-logo{
+    width: 30px;
+}
