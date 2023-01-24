@@ -13,7 +13,7 @@
 
     <div class="container-fluid vh-100">
         <div class="row">
-            <header class="col flex-shrink-0 bg-body-tertiary">
+            <header class="col main-navbar flex-shrink-0 bg-body-tertiary">
                 <nav class="navbar navbar-expand-md">
                     <div class="container-fluid bg-white flex-nowrap">
                         <a class="navbar-brand bg-body-light" href="#">
@@ -59,35 +59,38 @@
         </div>
     
         <div class="row">
-            <aside class="flex-shrink-0 flex-column sidebar text-white">
-                <ul>
-                    <li>
-                        <a href="#">
+            <aside class="sidebar flex-shrink-0 text-white d-flex flex-column align-items-center">
+                <ul class="list-group list-group-flush my-4 lh-5 main__items">
+                    <li class="">
+                        <a class="text-reset text-decoration-none" href="#">
                             <i class="fa-solid fa-house"></i>
-                            <span>Home</span>
+                            <span class="sidebar__items mx-2">Home</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="">
+                        <a class="text-reset text-decoration-none" href="#">
                             <i class="fa-solid fa-chart-simple"></i>
-                            <span>Stats</span>
+                            <span class="sidebar__items mx-2">Stats</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="">
+                        <a class="text-reset text-decoration-none" href="#">
                             <i class="fa-solid fa-signal"></i>
-                            <span>Signal</span>
+                            <span class="sidebar__items mx-2">Signal</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-
+                </ul>  
+                <ul class="list-group list-group-flush admin__item">
+                    <li class="">
+                        <a class="text-reset text-decoration-none" href="#">
+                            <i class="fa-solid fa-gear"></i>
+                            <span class="sidebar__items mx-2">Admin</span>
                         </a>
                     </li>
-                </ul>
+                </ul>        
             </aside>
         
-            <main class="flex-grow-1">
+            <main class="main-content flex-grow-1">
         
             </main>
         </div>    

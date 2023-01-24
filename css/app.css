@@ -1,14 +1,15 @@
-/* DEBUG */
-
-aside{
-    border: 1px solid blue;
+img{
+    max-width: 100%;
 }
 
-main{
-    border: 1px solid green;
+li{
+    list-style: none;
 }
-
 /* HEADER NAV RULES */
+
+.main-navbar{
+    height: 70px;
+}
 
 .big-logo{
     display: none;
@@ -24,24 +25,39 @@ main{
 
 /* ASIDE RULES */
     .sidebar{
-        max-width: 68px;
+        flex-basis: 68px;
         background-image: url(../img/sidebar-bg.png);
         background-color: #051E34;
         overflow: hidden;
+        height: calc(100vh - 70px);
+    }
+
+    .main-content{
+        flex-basis: calc(100% - 68px);
+        overflow-y: auto;
+        height: calc(100vh - 70px);
+    }
+
+    .sidebar__items{
+        display: none;
+    }
+
+    .admin__item{
+        align-self: center;
     }
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    
+@media (min-width: 576px) {
+
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    
+@media (min-width: 768px) {
+
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     .big-logo{
         display: block;
     }
@@ -51,16 +67,30 @@ main{
     }
 
     .sidebar{
-        width: 150px;
+        flex-basis: 150px;
     }
+
+    .main-content{
+        flex-basis: calc(100% - 150px);
+    }
+    
+    .main__items{
+        flex-grow: 1;
+    }
+    
+    .sidebar__items{
+        display: inline;
+    }
+
+    
  }
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 
  }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
+@media (min-width: 1400px) {
 
  }
