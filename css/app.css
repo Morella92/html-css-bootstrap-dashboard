@@ -1,9 +1,5 @@
 /* DEBUG */
 
-header{
-    border: 1px solid red;
-}
-
 aside{
     border: 1px solid blue;
 }
@@ -14,6 +10,10 @@ main{
 
 /* HEADER NAV RULES */
 
+.big-logo{
+    display: none;
+}
+
 .mobile-logo{
     width: 40px;
 }
@@ -22,18 +22,22 @@ main{
     color: #FF8F00;
 }
 
+/* ASIDE RULES */
+    .sidebar{
+        max-width: 68px;
+        background-image: url(../img/sidebar-bg.png);
+        background-color: #051E34;
+        overflow: hidden;
+    }
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-    .big-logo{
-        display: none;
-    }
+    
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    .mobile-logo{
-        display: block;
-    }
+    
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -44,6 +48,10 @@ main{
 
     .mobile-logo{
         display: none;
+    }
+
+    .sidebar{
+        width: 150px;
     }
  }
 
