@@ -6,9 +6,6 @@ li{
     list-style: none;
 }
 
-/* DEBUG RULES */
-
-
 /* HEADER NAV RULES */
 
 .main-navbar{
@@ -46,10 +43,19 @@ li{
         display: none;
     }
 
+    .sidebar__hover:hover{
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
     /* MAIN RULES */
 
     .text-bg{
         background-color: #165BBA;
+    }
+
+    .btn__hover:hover{
+        background-color: white;
+        color: black;
     }
 
     .class-img{
@@ -59,6 +65,7 @@ li{
     .hidden-info{
         display: none;
     }
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -94,7 +101,6 @@ li{
     .sidebar__items{
         display: inline;
     }
-    
     
  }
 

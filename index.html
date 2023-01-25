@@ -68,19 +68,19 @@
         <div class="row">
             <aside class="sidebar flex-shrink-0 text-white d-flex flex-column align-items-center">
                 <ul class="list-group list-group-flush my-4 lh-5 flex-grow-1">
-                    <li class="">
+                    <li class="sidebar__hover">
                         <a class="text-reset text-decoration-none" href="#">
                             <i class="fa-solid fa-house"></i>
                             <span class="sidebar__items mx-2">Home</span>
                         </a>
                     </li>
-                    <li class="">
+                    <li class="sidebar__hover">
                         <a class="text-reset text-decoration-none" href="#">
                             <i class="fa-solid fa-chart-simple"></i>
                             <span class="sidebar__items mx-2">Stats</span>
                         </a>
                     </li>
-                    <li class="">
+                    <li class="sidebar__hover">
                         <a class="text-reset text-decoration-none" href="#">
                             <i class="fa-solid fa-signal"></i>
                             <span class="sidebar__items mx-2">Signal</span>
@@ -88,7 +88,7 @@
                     </li>
                 </ul>  
                 <ul class="list-group list-group-flush">
-                    <li class="">
+                    <li class="sidebar__hover">
                         <a class="text-reset text-decoration-none" href="#">
                             <i class="fa-solid fa-gear"></i>
                             <span class="sidebar__items mx-2">Admin</span>
@@ -132,7 +132,7 @@
                     <div class="col-md-3 py-3 order-first order-md-1">
                         <h3 class="fs-6 d-inline me-2">Nuovo Studente</h3>
                         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                            <i class="fs-2 fa-regular fa-square-plus"></i>
+                            <i class="fs-2 btn__hover fa-regular fa-square-plus"></i>
                         </button>
 
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -181,14 +181,14 @@
                                       <input type="text" class="form-control" id="inputCity">
                                     </div>
                                     <div class="col-md-4">
-                                      <label for="inputState" class="form-label">Stata</label>
-                                      <select id="inputState" class="form-select">
-                                        <option selected>Scegli...</option>
-                                        <option>Italia</option>
-                                        <option>Francia</option>
-                                        <option>Germania</option>
-                                        <option>Inghilterra</option>
-                                      </select>
+                                        <label for="inputState" class="form-label">Stata</label>
+                                        <select id="inputState" class="form-select">
+                                            <option selected>Scegli...</option>
+                                            <option>Italia</option>
+                                            <option>Francia</option>
+                                            <option>Germania</option>
+                                            <option>Inghilterra</option>
+                                        </select>
                                     </div>
                                     <div class="col-md-2">
                                       <label for="inputZip" class="form-label">Cap</label>
@@ -199,12 +199,12 @@
                                         <input class="form-control" type="file" id="formFile">
                                     </div>
                                     <div class="col-12">
-                                      <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                                        <label class="form-check-label" for="gridCheck">
-                                          Seleziona per proseguire
-                                        </label>
-                                      </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                            Seleziona per proseguire
+                                            </label>
+                                        </div>
                                     </div>
                                     <div class="col-12">
                                       <button type="submit" class="btn btn-primary">Salva</button>
@@ -224,7 +224,7 @@
                                 Prossime classi
                             </div>
                             <div class="card-body">
-                                <table class="table">
+                                <table class="table table-hover">
                                     <thead>
                                       <tr>
                                         <th colspan="3" scope="col">Nome</th>
@@ -235,98 +235,98 @@
                                       </tr>
                                     </thead>
                                     <tbody>
-                                      <tr>
-                                        <td colspan="3">
-                                            <img class="class-img" src="./img/class-avatar.jpg" alt="">
-                                            <span>Classe 75</span>
-                                        </td>
-                                        <td scope="col" class="hidden-info">
-                                            15 Feb 2021
-                                        </td>
-                                        <td scope="col" class="hidden-info">
-                                            20%
-                                        </td>
-                                        <td>
-                                            <span class="badge text-bg-success">Done</span>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-pen"></i>
-                                            </button>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td colspan="3">
-                                            <img class="class-img" src="./img/class-avatar.jpg" alt="">
-                                            <span>Classe 76</span>
-                                        </td>
-                                        <td scope="col" class="hidden-info">
-                                            16 Feb 2021
-                                        </td>
-                                        <td scope="col" class="hidden-info">
-                                            20%
-                                        </td>
-                                        <td>
-                                            <span class="badge text-bg-success">Done</span>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-pen"></i>
-                                            </button>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td colspan="3">
-                                            <img class="class-img" src="./img/class-avatar.jpg" alt="">
-                                            <span>Classe 77</span>
-                                        </td>
-                                        <td scope="col" class="hidden-info">
-                                            17 Feb 2021
-                                        </td>
-                                        <td scope="col" class="hidden-info">
-                                            20%
-                                        </td>
-                                        <td>
-                                            <span class="badge text-bg-warning text-white">process</span>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-pen"></i>
-                                            </button>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td colspan="3">
-                                            <img class="class-img" src="./img/class-avatar.jpg" alt="">
-                                            <span>Classe 78</span>
-                                        </td>
-                                        <td scope="col" class="hidden-info">
-                                            18 Feb 2021
-                                        </td>
-                                        <td scope="col" class="hidden-info">
-                                            20%
-                                        </td>
-                                        <td>
-                                            <span class="badge text-bg-success">Done</span>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-pen"></i>
-                                            </button>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </td>
-                                      </tr>
+                                        <tr>
+                                            <td colspan="3">
+                                                <img class="class-img" src="./img/class-avatar.jpg" alt="">
+                                                <span>Classe 75</span>
+                                            </td>
+                                            <td scope="col" class="hidden-info">
+                                                15 Feb 2021
+                                            </td>
+                                            <td scope="col" class="hidden-info">
+                                                20%
+                                            </td>
+                                            <td>
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3">
+                                                <img class="class-img" src="./img/class-avatar.jpg" alt="">
+                                                <span>Classe 76</span>
+                                            </td>
+                                            <td scope="col" class="hidden-info">
+                                                16 Feb 2021
+                                            </td>
+                                            <td scope="col" class="hidden-info">
+                                                20%
+                                            </td>
+                                            <td>
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3">
+                                                <img class="class-img" src="./img/class-avatar.jpg" alt="">
+                                                <span>Classe 77</span>
+                                            </td>
+                                            <td scope="col" class="hidden-info">
+                                                17 Feb 2021
+                                            </td>
+                                            <td scope="col" class="hidden-info">
+                                                20%
+                                            </td>
+                                            <td>
+                                                <span class="badge text-bg-warning text-white">process</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3">
+                                                <img class="class-img" src="./img/class-avatar.jpg" alt="">
+                                                <span>Classe 78</span>
+                                            </td>
+                                            <td scope="col" class="hidden-info">
+                                                18 Feb 2021
+                                            </td>
+                                            <td scope="col" class="hidden-info">
+                                                20%
+                                            </td>
+                                            <td>
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
                                       
                                         <tr>
                                             <td colspan="3">
@@ -419,164 +419,11 @@
                                                     <i class="fa-solid fa-trash"></i>
                                                 </button>
                                             </td>
-                                        </tr>
-                                        
-                                      
+                                        </tr>              
                                     </tbody>
                                   </table>
                             </div>
                         </div>
-                        <!-- <div class="card">
-                            <d
-                                            <div class="col">
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-pen"></i>
-                                                </button>
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-trash"></i>
-                                          
-                                            </div>
-                                            <div class="col">
-                                                <span class="badge text-bg-warning text-white">process</span>
-                                            </div>
-                                            <div class="col">
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-pen"></i>
-                                                </button>
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-trash"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="row">
-                                            <div class="col">
-                                                <img class="class-img" src="./img/class-avatar.jpg" alt="">
-                                                <span>Classe 78</span>
-                                            </div>
-                                            <div class="col d-none d-md-inline">
-                                                18 Feb 2021
-                                            </div>
-                                            <div class="col d-none d-md-inline">
-                                                20%
-                                            </div>
-                                            <div class="col">
-                                                <span class="badge text-bg-success">Done</span>
-                                            </div>
-                                            <div class="col">
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-pen"></i>
-                                                </button>
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-trash"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="row">
-                                            <div class="col">
-                                                <img class="class-img" src="./img/class-avatar.jpg" alt="">
-                                                <span>Classe 79</span>
-                                            </div>
-                                            <div class="col d-none d-md-inline">
-                                                19 Feb 2021
-                                            </div>
-                                            <div class="col d-none d-md-inline">
-                                                20%
-                                            </div>
-                                            <div class="col">
-                                                <span class="badge text-bg-danger">failed</span>
-                                            </div>
-                                            <div class="col">
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-pen"></i>
-                                                </button>
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-trash"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="row">
-                                            <div class="col">
-                                                <img class="class-img" src="./img/class-avatar.jpg" alt="">
-                                                <span>Classe 80</span>
-                                            </div>
-                                            <div class="col d-none d-md-inline">
-                                                20 Feb 2021
-                                            </div>
-                                            <div class="col d-none d-md-inline">
-                                                20%
-                                            </div>
-                                            <div class="col">
-                                                <span class="badge text-bg-success">Done</span>
-                                            </div>
-                                            <div class="col">
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-pen"></i>
-                                                </button>
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-trash"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="row">
-                                            <div class="col">
-                                                <img class="class-img" src="./img/class-avatar.jpg" alt="">
-                                                <span>Classe 81</span>
-                                            </div>
-                                            <div class="col d-none d-md-inline">
-                                                21 Feb 2021
-                                            </div>
-                                            <div class="col d-none d-md-inline">
-                                                20%
-                                            </div>
-                                            <div class="col">
-                                                <span class="badge text-bg-danger">failed</span>
-                                            </div>
-                                            <div class="col">
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-pen"></i>
-                                                </button>
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-trash"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="row">
-                                            <div class="col">
-                                                <img class="class-img" src="./img/class-avatar.jpg" alt="">
-                                                <span>Classe 82</span>
-                                            </div>
-                                            <div class="col d-none d-md-inline">
-                                                22 Feb 2021
-                                            </div>
-                                            <div class="col d-none d-md-inline">
-                                                20%
-                                            </div>
-                                            <div class="col">
-                                                <span class="badge text-bg-success">Done</span>
-                                            </div>
-                                            <div class="col">
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-pen"></i>
-                                                </button>
-                                                <button type="button" class="btn btn-outline-secondary btn-sm">
-                                                    <i class="fa-solid fa-trash"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>           
-                        </div>    -->
                         
                         <div class="card mt-3">
                             <div class="card-header fw-bold fs-4">
