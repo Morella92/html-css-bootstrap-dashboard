@@ -48,10 +48,17 @@
                                 </li>
                             </ul>                                     
                         </div>
-                        <span class="bell-color">
-                            <a class="nav-link active" aria-current="page" href="#">
+                        <span class="bell-color dropdown">
+                            <a class="nav-link active" aria-current="page" data-bs-toggle="dropdown" aria-expanded="false" href="#">
                                 <i class="fa-solid fa-bell"></i>
                             </a>
+                            <div class="dropdown">
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                  <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                  <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                              </div>
                         </span>
                     </div>
                 </nav>
@@ -130,7 +137,222 @@
 
                 <div class="row py-4 px-2">
                     <div class="col-lg-8">
-                        
+                        <div class="card">
+                            <div class="card-header fw-bold fs-4">
+                              Prossime classi
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col">Nome</div>
+                                        <div class="col d-none d-md-inline">Data inizio</div>
+                                        <div class="col d-none d-md-inline">ROI</div>
+                                        <div class="col">Stato</div>
+                                        <div class="col">Azioni</div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="class-img" src="./img/class-avatar.jpg" alt="">
+                                            <span>Classe 75</span>
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            15 Feb 2021
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            20%
+                                        </div>
+                                        <div class="col">
+                                            <span class="badge text-bg-success">Done</span>
+                                        </div>
+                                        <div class="col">
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="class-img" src="./img/class-avatar.jpg" alt="">
+                                            <span>Classe 76</span>
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            16 Feb 2021
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            20%
+                                        </div>
+                                        <div class="col">
+                                            <span class="badge text-bg-success">Done</span>
+                                        </div>
+                                        <div class="col">
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="class-img" src="./img/class-avatar.jpg" alt="">
+                                            <span>Classe 77</span>
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            17 Feb 2021
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            20%
+                                        </div>
+                                        <div class="col">
+                                            <span class="badge text-bg-warning text-white">process</span>
+                                        </div>
+                                        <div class="col">
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="class-img" src="./img/class-avatar.jpg" alt="">
+                                            <span>Classe 78</span>
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            18 Feb 2021
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            20%
+                                        </div>
+                                        <div class="col">
+                                            <span class="badge text-bg-success">Done</span>
+                                        </div>
+                                        <div class="col">
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="class-img" src="./img/class-avatar.jpg" alt="">
+                                            <span>Classe 79</span>
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            19 Feb 2021
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            20%
+                                        </div>
+                                        <div class="col">
+                                            <span class="badge text-bg-danger">failed</span>
+                                        </div>
+                                        <div class="col">
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="class-img" src="./img/class-avatar.jpg" alt="">
+                                            <span>Classe 80</span>
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            20 Feb 2021
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            20%
+                                        </div>
+                                        <div class="col">
+                                            <span class="badge text-bg-success">Done</span>
+                                        </div>
+                                        <div class="col">
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="class-img" src="./img/class-avatar.jpg" alt="">
+                                            <span>Classe 81</span>
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            21 Feb 2021
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            20%
+                                        </div>
+                                        <div class="col">
+                                            <span class="badge text-bg-danger">failed</span>
+                                        </div>
+                                        <div class="col">
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="class-img" src="./img/class-avatar.jpg" alt="">
+                                            <span>Classe 82</span>
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            22 Feb 2021
+                                        </div>
+                                        <div class="col d-none d-md-inline">
+                                            20%
+                                        </div>
+                                        <div class="col">
+                                            <span class="badge text-bg-success">Done</span>
+                                        </div>
+                                        <div class="col">
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                          </div>
                     </div>
                     <div class="col-lg-4"></div>
                 </div>

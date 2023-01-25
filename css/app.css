@@ -57,7 +57,9 @@ li{
         background-color: #165BBA;
     }
 
-
+    .class-img{
+        width: 28px;
+    }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
