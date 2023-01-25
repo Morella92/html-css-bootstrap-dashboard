@@ -66,6 +66,9 @@ li{
         display: none;
     }
 
+    .offcanvas-end {
+        width: 100% !important;
+    }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -102,6 +105,9 @@ li{
         display: inline;
     }
     
+    .offcanvas-end {
+        width: 50% !important;
+    }
  }
 
 /* // X-Large devices (large desktops, 1200px and up) */
