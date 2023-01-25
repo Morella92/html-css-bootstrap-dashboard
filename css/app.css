@@ -5,6 +5,10 @@ img{
 li{
     list-style: none;
 }
+
+/* DEBUG RULES */
+
+
 /* HEADER NAV RULES */
 
 .main-navbar{
@@ -45,6 +49,15 @@ li{
     .admin__item{
         align-self: center;
     }
+
+
+    /* MAIN RULES */
+
+    .text-bg{
+        background-color: #165BBA;
+    }
+
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
