@@ -46,11 +46,6 @@ li{
         display: none;
     }
 
-    .admin__item{
-        align-self: center;
-    }
-
-
     /* MAIN RULES */
 
     .text-bg{
@@ -61,7 +56,7 @@ li{
         width: 28px;
     }
 
-
+    
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
@@ -88,10 +83,6 @@ li{
 
     .main-content{
         flex-basis: calc(100% - 150px);
-    }
-    
-    .main__items{
-        flex-grow: 1;
     }
     
     .sidebar__items{
