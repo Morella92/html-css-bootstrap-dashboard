@@ -56,6 +56,10 @@ li{
         width: 28px;
     }
 
+    .hidden-info{
+        display: none;
+    }
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
@@ -64,6 +68,9 @@ li{
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+    .hidden-info{
+        display: table-cell;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -87,6 +94,7 @@ li{
     .sidebar__items{
         display: inline;
     }
+    
     
  }
 
