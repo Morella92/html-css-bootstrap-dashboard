@@ -9,7 +9,7 @@ li{
 /* HEADER NAV RULES */
 
 .main-navbar{
-    height: 70px;
+    height: 60px;
 }
 
 .big-logo{
@@ -17,7 +17,7 @@ li{
 }
 
 .mobile-logo{
-    width: 40px;
+    width: 45px;
 }
 
 .bell-color{
@@ -30,13 +30,13 @@ li{
         background-image: url(../img/sidebar-bg.png);
         background-color: #051E34;
         overflow: hidden;
-        height: calc(100vh - 70px);
+        height: calc(100vh - 60px);
     }
 
     .main-content{
         flex-basis: calc(100% - 68px);
         overflow-y: auto;
-        height: calc(100vh - 70px);
+        height: calc(100vh - 60px);
     }
 
     .sidebar__items{
@@ -69,11 +69,6 @@ li{
     .offcanvas-end {
         width: 100% !important;
     }
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
-}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -108,14 +103,4 @@ li{
     .offcanvas-end {
         width: 50% !important;
     }
- }
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
- }
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-
  }
